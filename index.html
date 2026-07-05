@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <title>Forge - Craft your vision. Find your assets</title>
+</head>
+<body>
+    <header class="hero">
+        <div>
+            <p class="eyebrow">Free assets with credit required</p>
+            <h1>Forge</h1>
+            <p class="subtitle">Browse free Image, Animation, SFX, Video, and Music assets that require attribution.</p>
+        </div>
+    </header>
+
+    <main class="app-shell">
+        <section class="controls">
+            <div class="category-list" id="categoryList" role="tablist" aria-label="Asset categories"></div>
+            <div class="search-wrapper">
+                <label for="searchInput">Search assets</label>
+                <input id="searchInput" type="search" placeholder="Search by name, author, or tag" aria-label="Search assets">
+            </div>
+        </section>
+
+        <section class="assets-section">
+            <div class="section-header">
+                <h2 id="currentCategoryTitle">All categories</h2>
+                <p id="assetCountText"></p>
+            </div>
+            <div class="asset-grid" id="assetGrid"></div>
+        </section>
+    </main>
+
+    <footer class="footer-note">
+        <p>Since Forge is a very new program, we have only one asset for now</p>
+        <p>All assets shown are free to use when you credit the creator. Click an item to view source and attribution details.</p>
+    </footer>
+
+    <script src="index.js" defer></script>
+</body>
+</html>
